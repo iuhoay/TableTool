@@ -110,7 +110,7 @@
                     <constraint firstItem="rW8-oV-UJz" firstAttribute="top" secondItem="gIp-Ho-8D9" secondAttribute="top" id="rPz-eq-eNe"/>
                 </constraints>
             </view>
-            <toolbar key="toolbar" implicitIdentifier="CF834F3D-5DCD-4ECA-87AD-FAA40E0725FA" autosavesConfiguration="NO" displayMode="iconAndLabel" sizeMode="regular" id="YhY-Cm-jWG">
+            <toolbar key="toolbar" implicitIdentifier="CF834F3D-5DCD-4ECA-87AD-FAA40E0725FA" autosavesConfiguration="NO" displayMode="iconOnly" sizeMode="regular" id="YhY-Cm-jWG">
                 <allowedToolbarItems>
                     <toolbarItem implicitItemIdentifier="NSToolbarShowColorsItem" id="7eN-dA-ROL"/>
                     <toolbarItem implicitItemIdentifier="NSToolbarShowFontsItem" id="blf-jy-szP"/>
@@ -119,12 +119,10 @@
                     <toolbarItem implicitItemIdentifier="NSToolbarFlexibleSpaceItem" id="U88-dC-DZu"/>
                     <toolbarItem implicitItemIdentifier="F1C98A2E-2043-4E86-8DBB-9103AAB3F296" label="Delete Column" paletteLabel="Delete Column" id="RIC-u2-0Xr">
                         <nil key="toolTip"/>
-                        <size key="minSize" width="30" height="28"/>
-                        <size key="maxSize" width="34" height="30"/>
                         <button key="view" verticalHuggingPriority="750" id="HOS-Pg-Psj">
                             <rect key="frame" x="28" y="14" width="30" height="28"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                            <buttonCell key="cell" type="roundTextured" bezelStyle="texturedRounded" alignment="center" enabled="NO" state="on" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="Wdw-cD-Cxt">
+                            <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" imagePosition="only" alignment="center" enabled="NO" state="on" imageScaling="proportionallyDown" inset="2" id="Wdw-cD-Cxt">
                                 <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                 <font key="font" metaFont="system"/>
                                 <connections>
@@ -135,12 +133,10 @@
                     </toolbarItem>
                     <toolbarItem implicitItemIdentifier="15AFEA8F-1205-4891-A036-56F49D966167" label="Delete Row" paletteLabel="Delete Row" id="yQy-V2-Gkq">
                         <nil key="toolTip"/>
-                        <size key="minSize" width="30" height="28"/>
-                        <size key="maxSize" width="34" height="30"/>
                         <button key="view" verticalHuggingPriority="750" id="2Bq-oO-aB0">
                             <rect key="frame" x="19" y="14" width="30" height="28"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                            <buttonCell key="cell" type="roundTextured" bezelStyle="texturedRounded" alignment="center" enabled="NO" state="on" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="z47-HM-ILo">
+                            <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" imagePosition="only" alignment="center" enabled="NO" state="on" imageScaling="proportionallyDown" inset="2" id="z47-HM-ILo">
                                 <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                 <font key="font" metaFont="system"/>
                                 <connections>
@@ -151,12 +147,10 @@
                     </toolbarItem>
                     <toolbarItem implicitItemIdentifier="0565C83F-5794-4021-81D9-15078D3B45FB" label="Add Column" paletteLabel="Add Column" id="L16-81-E18">
                         <nil key="toolTip"/>
-                        <size key="minSize" width="67" height="22"/>
-                        <size key="maxSize" width="75" height="28"/>
                         <segmentedControl key="view" verticalHuggingPriority="750" id="ufp-YO-QNk">
                             <rect key="frame" x="0.0" y="14" width="71" height="28"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                            <segmentedCell key="cell" enabled="NO" borderStyle="border" alignment="left" style="texturedRounded" trackingMode="momentary" id="KPy-FB-oij">
+                            <segmentedCell key="cell" enabled="NO" alignment="left" style="automatic" trackingMode="momentary" id="KPy-FB-oij">
                                 <font key="font" metaFont="system"/>
                                 <segments>
                                     <segment width="32">
@@ -174,12 +168,10 @@
                     </toolbarItem>
                     <toolbarItem implicitItemIdentifier="9CB9291B-E94F-4515-BDAE-2FC350E1CF35" label="Add Row" paletteLabel="Add Row" id="uIc-SS-WZD">
                         <nil key="toolTip"/>
-                        <size key="minSize" width="71" height="27"/>
-                        <size key="maxSize" width="75" height="28"/>
                         <segmentedControl key="view" verticalHuggingPriority="750" id="FID-WH-eOP">
                             <rect key="frame" x="0.0" y="14" width="71" height="28"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                            <segmentedCell key="cell" enabled="NO" borderStyle="border" alignment="left" style="texturedRounded" trackingMode="momentary" id="h3f-jd-RHe">
+                            <segmentedCell key="cell" enabled="NO" alignment="left" style="automatic" trackingMode="momentary" id="h3f-jd-RHe">
                                 <font key="font" metaFont="system"/>
                                 <segments>
                                     <segment width="32">
@@ -197,12 +189,10 @@
                     </toolbarItem>
                     <toolbarItem implicitItemIdentifier="B703BD07-0368-4319-B261-2C45F156D82D" label="Convert…" paletteLabel="Convert…" image="NSShareTemplate" id="cxB-ko-x5S">
                         <nil key="toolTip"/>
-                        <size key="minSize" width="30" height="25"/>
-                        <size key="maxSize" width="34" height="28"/>
                         <button key="view" verticalHuggingPriority="750" id="gD3-M7-an0">
                             <rect key="frame" x="13" y="14" width="32" height="28"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                            <buttonCell key="cell" type="roundTextured" bezelStyle="texturedRounded" image="NSShareTemplate" imagePosition="only" alignment="center" lineBreakMode="truncatingTail" state="on" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="Da0-dZ-kQ1">
+                            <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="NSShareTemplate" imagePosition="only" alignment="center" lineBreakMode="truncatingTail" state="on" imageScaling="proportionallyDown" inset="2" id="Da0-dZ-kQ1">
                                 <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                 <font key="font" metaFont="system"/>
                             </buttonCell>
