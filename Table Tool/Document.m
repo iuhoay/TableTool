@@ -65,6 +65,10 @@
 - (void)windowControllerDidLoadNib:(NSWindowController *)aController {
     [super windowControllerDidLoadNib:aController];
     dataCell = [self.tableView.tableColumns.firstObject dataCell];
+    dataCell.font = [NSFont systemFontOfSize:NSFont.systemFontSize];
+    ((NSTextFieldCell *)dataCell).drawsBackground = NO;
+    self.tableView.style = NSTableViewStyleFullWidth;
+    self.tableView.rowHeight = 24;
     [self updateTableColumns];
     
     if (!statusBarFormatViewController) {
